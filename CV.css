@@ -64,10 +64,10 @@ body{
 /*---about---*/
 .about{
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 .profile-img{
-    height: 400px;
+    height: 40%;
 }
 .nav-bar{
     top: 0;
@@ -121,7 +121,7 @@ body{
 }
 /*---resume---*/
 .resume{
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 30px;
     background: #f9f9f9;
 
