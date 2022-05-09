@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Leckerli One', cursive;
+}
+/*---header css----*/
+#header{
+    height: 100vh;
+    background: linear-gradient(rgba(215, 140, 216, 0.628), rgba(215, 140, 216, 0.628)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.user-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+.user-box img{
+    border-radius: 50%;
+    width: 250px;
+    border: 2px solid rgba(215, 140, 216, 0.628);
+}
+.user-box h1{
+    color: #fff;
+    font-family:  ;
+    margin: 10px;
+    font-family: 'Leckerli One', cursive;
+    font-size: 48;
+
+}
+.user-box p{
+    color: rgb(70, 17, 73, .86);
+    font-size: 18;
+
+
+}
+.scroll-btn{
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #fff;
+    padding: 10px 10px 20px;
+    border-radius: 30px;
+
+}
+.scroll-bar span{
+    border: 2px solid #fff;
+    font-size: 10px;
+    border-radius: 30px;
+}
+.scroll-bar{
+    animation: mover 1s infinite alternate;
+}
+@keyframes mover{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px)}
+}
+/*---about---*/
+.about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.profile-img{
+    height: 400px;
+}
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.nav-bar{
+    background-color: black;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-nav{
+    float: right;
+    text-align: right;
+}
+.nav-link{
+    flex: 1;
+    color: rgb(70, 17, 73) !important;
+    text-align: right;
+}
+.nav-item{
+    color: rgba(215, 140, 216, 0.628);
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(215, 140, 216, 0.628);
+    display: block;
+    margin: auto;
+    transition: 0.5s
+}
+.nav-item:hover::after{
+    width: 100%;
+}
+
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+.progress-bar{
+    border-radius: 16px;
+    background: rgb(70, 17, 73, .86) !important;
+}
+/*---resume---*/
+.resume{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+
+}
+.resume h3{
+    margin-bottom: 50px;
+}
+.timeline{
+    list-style-type: none;
+    position: relative;
+}
+.timeline:before{
+    content: '';
+    background:#555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+
+}
+.timeline li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: #fff;
+
+}
+.timeline li h4{
+    background-color: rgba(215, 140, 216, 0.628);
+    padding: 5px 0px 5px 20px;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.timeline li:before{
+    content: '';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+
+}
+/*---Contact----*/
+  
+.contact{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(215, 140, 216, 0.628), rgba(215, 140, 216, 0.628)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    
+
+}
+.contact h1{
+    font-size: 48;
+    font-family: 'Leckerli One', cursive;
+}
+.contact .row{
+    padding: 20px 40px;
+    font-size: 60px;
+
+}
+.contact p{
+    color: rgb(70, 17, 73, .86);
+    padding-top: 0;
+}
+.contact .col-md-4 .fa{
+    padding: 2px;
+    font-size: 80px;
+    color: #fff !important;
+}
