@@ -64,10 +64,11 @@ body{
 /*---about---*/
 .about{
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
 .profile-img{
-    height: 70%;
+    max-width: 100%;
+    height: auto;
 }
 .nav-bar{
     top: 0;
